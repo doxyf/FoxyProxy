@@ -1,0 +1,20 @@
+{
+    "globalPrefix": "?",
+    "online-mode": false,
+    "host":"play.kaboom.pw",
+    "remote_port": 25565,
+    "local_port": 25565,
+    "version": "1.15.2",
+    "motd": "§cfartozm likes bals!",
+    "loginMessage": null,
+
+    "kaboom": {
+        "auto_op": true,
+        "auto_creative": true,
+        "auto_vanish": false,
+        "auto_commandspy": true,
+        "auto_god": true,
+        "auto_unmute": true,
+        "hbot_key": "Enter HBot key here if ur trusted"
+    }
+}
