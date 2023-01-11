@@ -122,7 +122,7 @@ module.exports.TCPR = function (data, meta, targetClient, client){ // FROM SERVE
                 "ping": data.data[0].ping || client.playerlist[data.data[0].UUID]?.ping || 0,
             }
 
-            if(data.action == 4 && client.playerlist[data.data[0].UUID]) client.playerlist[data.data[0].UUID].activity = "offline or vanish" //todo check
+            if(data.action == 4 && client.playerlist[data.data[0].UUID]) client.playerlist[data.data[0].UUID].activity = "offline or vanish"
 
             break;
 
